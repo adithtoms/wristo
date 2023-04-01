@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "productName": "Wrogn watch",
+      "categoryId": "1",
+      "description": "this is a d watch",
+      "price": "600",
+      "isAvailable": "yes",
+      "productImage": "https://i.postimg.cc/VvgBmw03/analog-3.jpg",
+      "rating": "4.5",
+      "review": "150",
+      "vendorName": "titan",
+      "warrenty": "2"
+    },
+    {
+      "id": 4,
+      "productName": "Fastrack watch series a",
+      "categoryId": "1",
+      "description": "this is a m watch",
+      "price": "400",
+      "isAvailable": "yes",
+      "productImage": "https://i.postimg.cc/hjF00pq3/analog-5.jpg",
+      "rating": "4.5",
+      "review": "150",
+      "vendorName": "titan",
+      "warrenty": "4"
+    },
+    {
+      "id": 5,
+      "productName": "Fossil watch",
+      "categoryId": "3",
+      "description": "this is a m watch",
+      "price": "400",
+      "isAvailable": "yes",
+      "productImage": "https://i.postimg.cc/mZKTy9c1/chain-1.jpg",
+      "rating": "4.5",
+      "review": "150",
+      "vendorName": "titan",
+      "warrenty": "2"
+    },
+    {
+      "id": 6,
+      "productName": "Rado watch",
+      "categoryId": "3",
+      "description": "this is a m watch",
+      "price": "400",
+      "isAvailable": "yes",
+      "productImage": "https://i.postimg.cc/Y9hw12Mx/chain-2.jpg",
+      "rating": "4.5",
+      "review": "150",
+      "vendorName": "titan",
+      "warrenty": "2"
+    },
+    {
+      "id": 7,
+      "productName": "Noise watch",
+      "categoryId": "2",
+      "description": "this is a m watch",
+      "price": "400",
+      "isAvailable": "yes",
+      "productImage": "https://i.postimg.cc/mkYp9Kzw/smart-2.jpg",
+      "rating": "4.5",
+      "review": "150",
+      "vendorName": "Noise",
+      "warrenty": "2"
+    },
+    {
+      "id": 8,
+      "productName": "Apple watch",
+      "categoryId": "2",
+      "description": "this is a m watch",
+      "price": "400",
+      "isAvailable": "yes",
+      "productImage": "https://i.postimg.cc/0j0ZjmFX/smart-4.jpg",
+      "rating": "4.5",
+      "review": "150",
+      "vendorName": "titan",
+      "warrenty": "2"
+    },
+    {
+      "id": 9,
+      "productName": "Rolex watch",
+      "categoryId": "3",
+      "description": "this is a m watch",
+      "price": "400",
+      "isAvailable": "yes",
+      "productImage": "https://i.postimg.cc/4NGSG4qF/chain-3.jpg",
+      "rating": "4.5",
+      "review": "150",
+      "vendorName": "titan",
+      "warrenty": "2"
+    },
+    {
+      "id": "15",
+      "productName": "Armfit Watch",
+      "categoryId": "2",
+      "description": "this is a watch",
+      "price": "500",
+      "isAvailable": "true",
+      "productImage": "https://i.postimg.cc/0j0ZjmFX/smart-4.jpg",
+      "rating": "4.5",
+      "review": "500",
+      "vendorName": "armfit",
+      "warrenty": "2"
+    }
+  ]
+}

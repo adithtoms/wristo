@@ -1,0 +1,17 @@
+<div class="container p-5 w-25 text-center border border-dark">
+    <h1>Add New Product</h1>
+    <form (ngSubmit)="addProduct()" action="" [formGroup]="addProductForm">
+        <input formControlName="id" type="text" class="form-control mt-2 p-1" placeholder="Id" name="pid" id="pid">
+        <input formControlName="productName"  type="text" class="form-control mt-2 p-1" placeholder="Name" name="pname" id="pname">
+        <input formControlName="categoryId" type="text" class="form-control mt-2 p-1" placeholder="Category Id" name="pcid" id="pcid">
+        <input formControlName="description" type="text" class="form-control mt-2 p-1" placeholder="Description" name="pdes" id="pdes">
+        <input formControlName="price" type="text" class="form-control mt-2 p-1" placeholder="Price" name="price" id="price">
+        <input formControlName="isAvailable" type="text" class="form-control mt-2 p-1" placeholder="Is Available" name="isavail" id="isavail">
+        <input formControlName="productImage" type="text" class="form-control mt-2 p-1" placeholder="Product image" name="" id="">
+        <input formControlName="rating" type="text" class="form-control mt-2 p-1" placeholder="Rating" name="rating" id="rating">
+        <input formControlName="review" type="text" class="form-control mt-2 p-1" placeholder="Review" name="review" id="review">
+        <input formControlName="vendorName" type="text" class="form-control mt-2 p-1" placeholder="Vendor" name="vendor" id="vendor">
+        <input formControlName="warrenty" type="text" class="form-control mt-2 p-1" placeholder="Warrenty" name="warrenty" id="warrenty">
+        <button type="submit" class="btn btn-outline-dark mt-5">Add</button>
+    </form>
+</div>

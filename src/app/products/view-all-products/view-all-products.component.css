@@ -1,0 +1,22 @@
+.aslider,.bslider,.cslider{
+    width: 100%;
+    padding-top: 5rem;
+    min-height: 80vh;
+    border-radius:0 0 200px 0 ;
+}
+.aslider{
+    background-color: rgb(44, 98, 3);
+}
+.bslider{
+    background-color: rgb(3, 54, 99);
+}
+.cslider{
+    background-color: rgb(190, 184, 6);
+}
+
+.d1:hover{
+cursor: pointer;
+}
+.s1:hover{
+    border: .5px solid black;
+}

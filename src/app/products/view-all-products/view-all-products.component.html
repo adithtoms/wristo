@@ -1,0 +1,90 @@
+<div id="carouselExampleInterval" class="carousel slide mslider" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active aslider" data-bs-interval="4000">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12"> <img src="https://i.postimg.cc/43cWmDw9/slider-img.png"
+                            class="d-block w-100" alt="..."></div>
+                    <div class="col-md-6 col-sm-12 p-5">
+                        <h1 class="text-white">Wristoo</h1>
+                        <p class="text-white">You can find the best Smartwatches only here!</p>
+                        <button class="btn btn-danger p-3 mt-5">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item bslider" data-bs-interval="3000">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6"> <img src="https://i.postimg.cc/43cWmDw9/slider-img.png" class="d-block w-100"
+                            alt="..."></div>
+                    <div class="col-md-6 p-5">
+                        <h1 class="text-white ">Wristoo</h1>
+                        <p class="text-white">You can find the best Smartwatches only here!</p>
+                        <button class="btn btn-danger p-3 mt-5">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item cslider" data-bs-interval="3000">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6"> <img src="https://i.postimg.cc/43cWmDw9/slider-img.png" class="d-block w-100"
+                            alt="..."></div>
+                    <div class="col-md-6 p-5">
+                        <h1 class="text-white">Wristoo</h1>
+                        <p class="text-white">You can find the best Smartwatches only here!</p>
+                        <button class="btn btn-danger p-3 mt-5">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="container mt-5 text-center">
+    <div class="container  row">
+        <div class="col-3 "><a (click)="filter('')" class="d1"><span class="s1 badge rounded-pill text-bg-secondary p-3 ">View All</span></a></div>
+        <div class="col-3 "><a (click)="filter(2)" class="d1"><span class="s1 badge rounded-pill text-bg-secondary p-3 ">Smart Watches</span></a></div>
+        <div class="col-3 "><a (click)="filter(3)" class="d1"><span class="s1 badge rounded-pill text-bg-secondary p-3 ">Chain Watches</span></a></div>
+        <div class="col-3 "><a (click)="filter(1)" class="d1"><span class="s1 badge rounded-pill text-bg-secondary p-3 ">Analog Watches</span></a></div>
+    </div>
+</div>
+
+
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div *ngFor="let i of filterProducts | filter:searchKey: 'productName' " class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img style="height: 300px;" class="card-img-top" src="{{i.productImage}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <!-- Product price-->
+                            <p>Price: Rs.{{i.price}}</p>
+                            <p>Rating: {{i.rating}}</p>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                href="products/view_product/{{i.id}}">View options</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
